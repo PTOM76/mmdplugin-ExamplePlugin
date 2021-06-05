@@ -1,1 +1,2 @@
-# MMDPluginExample"# mmdplugin-ExamplePlugin" 
+# ExamplePlugin
+MMDPluginを前提としたプラグインの例です。
