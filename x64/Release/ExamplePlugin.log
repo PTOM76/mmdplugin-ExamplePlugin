@@ -1,0 +1,9 @@
+﻿  ExamplePlugin.cpp
+     ライブラリ MikuMikuDance\Plugin\ExamplePlugin\ExamplePlugin.lib とオブジェクト MikuMikuDance\Plugin\ExamplePlugin\ExamplePlugin.exp を作成中
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+D:\Users\ptms7\source\repos\MMDPluginExample\ExamplePlugin.cpp(61): warning C4172: ローカル変数またはテンポラリのアドレスを返します: resPath
+  All 138 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  ExamplePlugin.vcxproj -> D:\Users\ptms7\source\repos\MMDPluginExample\MikuMikuDance\Plugin\ExamplePlugin\ExamplePlugin.dll
+          1 個のファイルをコピーしました。

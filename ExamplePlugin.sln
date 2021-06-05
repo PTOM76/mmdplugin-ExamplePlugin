@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExamplePlugin", "ExamplePlugin.vcxproj", "{8D37D925-CA15-431B-B8ED-BA2EF1A12884}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "MikuMikuDance", "MikuMikuDance\MikuMikuDance.exe", "{F44C071E-A29F-490A-8EF5-BAC48417C9F6}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = .\MikuMikuDance\MikuMikuDance.exe
+		RemoteMachine = T45157DR-PC
+		StartingDirectory = .\MikuMikuDance\
+		Environment = 既定
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Debug|x64.ActiveCfg = Debug|x64
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Debug|x64.Build.0 = Debug|x64
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Debug|x86.Build.0 = Debug|Win32
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Release|x64.ActiveCfg = Release|x64
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Release|x64.Build.0 = Release|x64
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Release|x86.ActiveCfg = Release|Win32
+		{8D37D925-CA15-431B-B8ED-BA2EF1A12884}.Release|x86.Build.0 = Release|Win32
+		{F44C071E-A29F-490A-8EF5-BAC48417C9F6}.Debug|x64.ActiveCfg = Release|x64
+		{F44C071E-A29F-490A-8EF5-BAC48417C9F6}.Debug|x86.ActiveCfg = Release|x64
+		{F44C071E-A29F-490A-8EF5-BAC48417C9F6}.Release|x64.ActiveCfg = Release|x64
+		{F44C071E-A29F-490A-8EF5-BAC48417C9F6}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E2C3D05-7CCC-4D1C-9641-989D0FAAD585}
+	EndGlobalSection
+EndGlobal
