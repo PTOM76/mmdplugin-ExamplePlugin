@@ -1,1 +1,1 @@
-https://bowlroll.net/file/135503
+get "MMDPlugin.lib" from https://bowlroll.net/file/135503
