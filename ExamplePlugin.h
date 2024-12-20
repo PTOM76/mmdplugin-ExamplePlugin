@@ -6,11 +6,11 @@
 #pragma comment(lib, "shlwapi.lib")
 #include <Shlwapi.h>
 #include <tchar.h>
+
 using namespace mmp;
 using namespace std;
 
-// 変数の初期化など
-LONG_PTR originWndProc = NULL;
+// 変数の初期化
 #ifdef _WIN64
 #define _LONG_PTR LONG_PTR
 #else
@@ -20,9 +20,8 @@ HANDLE hModule;
 WCHAR* iniPath;
 
 // メニューのIDを生成
-UINT MainMenu = createWM_APP_ID();
-UINT SubMenu1 = createWM_APP_ID();
-UINT SubMenu2 = createWM_APP_ID();
-UINT CheckMenu = createWM_APP_ID();
-UINT AboutMenu = createWM_APP_ID();
-// ----
+UINT MAIN_MENU = createWM_APP_ID();
+UINT SUB_MENU1 = createWM_APP_ID();
+UINT SUB_MENU2 = createWM_APP_ID();
+UINT CHECK_MENU = createWM_APP_ID();
+UINT ABOUT_MENU = createWM_APP_ID();
