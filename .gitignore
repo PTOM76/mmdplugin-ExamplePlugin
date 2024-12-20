@@ -4,3 +4,5 @@
 *.bat
 MikuMikuDance/
 lib/MMDPlugin.lib
+x64/
+x86/
