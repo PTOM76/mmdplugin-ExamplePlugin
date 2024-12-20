@@ -1,3 +1,6 @@
 .vs/
+.vscode/
 *.sh
 *.bat
+MikuMikuDance/
+lib/MMDPlugin.lib
